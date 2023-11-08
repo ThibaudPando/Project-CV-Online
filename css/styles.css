@@ -35,13 +35,3 @@ body {
     width: 50%;
     float: left;
 }
-/* Ajoutez ceci à votre fichier CSS */
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-#counter {
-    margin-right: 10px;
-}
