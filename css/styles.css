@@ -1,0 +1,47 @@
+/*
+* Couleur :
+*   - Rouge : #782221
+*   - Beige : #dbc2a4
+*   - Gris : #2c1d27
+* Pour les icons :
+*   - https://www.flaticon.com/fr/
+*   - https://fontawesome.com/icons (A telecharger dans le fichier images)
+*
+*
+*
+*/
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway.woff') format('woff');
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #dbc2a4;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+.section {
+    width: 50%;
+    float: left;
+}
+/* Ajoutez ceci à votre fichier CSS */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#counter {
+    margin-right: 10px;
+}
