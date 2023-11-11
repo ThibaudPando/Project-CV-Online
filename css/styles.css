@@ -35,3 +35,24 @@ body {
     width: 50%;
     float: left;
 }
+
+@font-face { font-family: 'Raleway'; src: url('../fonts/Raleway.woff'); }
+
+/* Color Palette */
+body {
+    background-color: #dbc2a4;
+    color: #2c1d27;
+}
+h1, h2, h3 {
+    color: #782221;
+}
+/* Lato font for headings */
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+/* Raleway font for content */
+p, li, a {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Additional stylings... */
