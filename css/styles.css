@@ -56,3 +56,29 @@ p, li, a {
 }
 
 /* Additional stylings... */
+
+:root { --color-primary: #782221; }
+
+:root { --color-secondary: #dbc2a4; }
+
+:root { --color-tertiary: #2c1d27; }
+
+:root { --color-white: #ffffff; }
+
+:root { --color-black: #000000; }
+
+a:hover, button:hover {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+/* Transition pour les effets de survol */
+a, button {
+    transition: color 0.3s ease;
+}
+
+/* Effet de zoom pour les images au survol */
+img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
